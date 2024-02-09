@@ -1,0 +1,34 @@
+<section class="contact mt-5 py-5">
+    <div class="">
+        <div class="row mx-auto max-w">
+            <div class="col-md-12 mb-5">
+                <div>
+                    <div class="text-center d-flex flex-wrap justify-content-center w-100">
+                        <h2 class="w-100 fw700-fs40">CONATCT SECTION</h2>
+                        <div class="my-ico"><i class="fa-solid fa-star mb-2"></i></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="d-flex justify-content-center">
+                    <div class="my-inputs">
+                        <h6 [ngStyle]="{'transform':name!=''? 'translate(0px)':'translateY(40px)'}" class="UserName">UserName :</h6>
+                        <input [(ngModel)]="name"  placeholder="UserName" class="rounded p-1 mb-4 w-100" type="text">
+                        <h6 [ngStyle]="{'transform':age!=''? 'translate(0px)':'translateY(40px)'}" class="UserAge">UserAge :</h6>
+                        <input [(ngModel)]="age"  placeholder="UserAge" class="rounded p-1 mb-4 w-100" type="text">
+                        <h6 [ngStyle]="{'transform':email!=''? 'translate(0px)':'translateY(40px)'}" class="UserEmail">UserEmail :</h6>
+                        <input [(ngModel)]="email"  placeholder="UserEmail" class="rounded p-1 mb-4 w-100" type="email">
+                        <h6 [ngStyle]="{'transform':pass!=''? 'translate(0px)':'translateY(40px)'}" class="UserPassword">UserPassword :</h6>
+                        <input [(ngModel)]="pass"  placeholder="UserPassword" class="rounded p-1 mb-4 w-100" type="password">
+                        <button class="btn bg-su" type="submit">Send Message</button>
+                    </div>
+                   
+                </div>
+
+
+
+            </div>
+
+        </div>
+    </div>
+</section>

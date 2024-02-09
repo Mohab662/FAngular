@@ -1,0 +1,15 @@
+.my-bg{
+    background-color: RGB(26, 188, 156);
+    border-radius: 10px;
+}
+.my-nav{
+    background-color: RGB(44, 62, 80);
+    transition: 0.5s;
+}
+.my-nav a{
+    color: RGB(255, 255, 255);
+}
+
+.main-title{
+    font-size: 30px;
+}

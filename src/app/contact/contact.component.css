@@ -1,0 +1,64 @@
+.contact{
+    color: RGB(44, 62, 80);
+}
+.bg-su{
+    background-color: RGB(26, 188, 156);
+    color: aliceblue;
+}
+.my-ico{
+    position: relative;
+}
+.my-ico::after{
+    content: "";
+    position: absolute;
+    width: 90px;
+    height: 4px;
+    background-color:RGB(44, 62, 80);
+    left: 100%;
+    top: 50%;
+    transform: translate(15%,-60%);
+}
+.my-ico::before{
+    content: "";
+    position: absolute;
+    width: 90px;
+    height: 4px;
+    background-color:RGB(44, 62, 80);
+    right: 100%;
+    top: 50%;
+    transform: translate(-15%,-60%);
+}
+.max-w{
+    max-width: 800px;
+}
+.my-inputs input{
+    border: none;
+    border-bottom:1px rgb(228, 217, 217) solid ;
+    z-index: 999;
+    
+    padding: 3px;
+    outline: none;
+   
+}
+.fw700-fs40{
+    font-weight: 700;
+    font-size: 40px;
+}
+.fw400-fs16{
+    font-weight: 400;
+    font-size: 16px;
+}
+.my-inputs {
+    width: 80%;
+}
+
+
+
+
+.UserName,.UserAge,.UserEmail,.UserPassword{
+    position: relative;
+    transform: translate(2px,40px);
+    z-index: -5;
+    transition: 0.5s;
+}
+

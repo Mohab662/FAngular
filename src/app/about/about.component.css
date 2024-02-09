@@ -1,0 +1,36 @@
+.about{
+    background-color: RGB(26, 188, 156);
+    color: RGB(255, 255, 255);
+    height: 90vh;
+}
+.fw700-fs40{
+    font-weight: 700;
+    font-size: 40px;
+}
+.fw400-fs16{
+    font-weight: 400;
+    font-size: 18px;
+}
+.my-ico{
+    position: relative;
+}
+.my-ico::after{
+    content: "";
+    position: absolute;
+    width: 90px;
+    height: 4px;
+    background-color: RGB(255, 255, 255);
+    left: 100%;
+    top: 50%;
+    transform: translate(15%,-60%);
+}
+.my-ico::before{
+    content: "";
+    position: absolute;
+    width: 90px;
+    height: 4px;
+    background-color: RGB(255, 255, 255);
+    right: 100%;
+    top: 50%;
+    transform: translate(-15%,-60%);
+}
