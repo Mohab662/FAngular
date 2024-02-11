@@ -9,11 +9,11 @@ import { NotFoundComponent } from './not-found/not-found.component';
 
 const routes: Routes = [
   {path:'',redirectTo:'home',pathMatch:'full'},
-  {path:'home' ,component:HomeComponent},
-  {path:'about' ,component:AboutComponent},
-  {path:'contact' ,component:ContactComponent},
-  {path:'portfilo',component:PortfiloComponent},
-  {path:'**',component:NotFoundComponent}
+  {path:'home' ,component:HomeComponent,title:'Home'},
+  {path:'about' ,component:AboutComponent,title:'About'},
+  {path:'contact' ,component:ContactComponent,title:'Contact'},
+  {path:'portfilo',component:PortfiloComponent,title:'Portfilo'},
+  {path:'**',component:NotFoundComponent,title:'Not Found'}
 ];
 
 @NgModule({
